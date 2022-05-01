@@ -20,6 +20,7 @@ article {
     text-align: center;
     text-transform: uppercase;
     padding: 15px 0;
+    position: relative;
 }
 
 .price {
@@ -38,7 +39,7 @@ article {
     margin-bottom: 15px;
 }
 
-.more-info {
+.more-info-div {
     margin-bottom: 20px;
 }
 
@@ -88,3 +89,45 @@ ul {
     margin-bottom: 10px;
 }
 
+h2::after {
+    content: 'SALE';
+    color: white;
+    background-color: red;
+    left: -30px;
+    top: -20px;
+    position: absolute;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+.brown {
+    background-color: brown;
+}
+
+.inline {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
